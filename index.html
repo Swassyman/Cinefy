@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.4">
+    <title>Cinefy</title>
+
+    <link rel="stylesheet" href="CSS/mainstylesheet.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        body {
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('poster.jpg');
+            /* Replace 'background.jpg' with your actual image file */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.3;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="TopBar">
+
+        <span class="Title">Cinefy</span>
+        <a style="text-decoration: none;" href="https://google.com">
+            <span class="material-symbols-outlined" id="movieicon">movie</span>
+            <span id="titleofmovie">Movies</span>
+        </a>
+        <a style="text-decoration: none;" href="https://youtube.com">
+            <span class="material-symbols-outlined" id="tvicon">tv</span>
+            <span id="titleoftv">Tv</span>
+        </a>
+        <div class="SearchBar">
+            <input type="text" placeholder="   Search here ..." />
+        </div>
+        <span class="material-symbols-outlined" id="searchicon">
+            search
+        </span>
+        <span class="material-symbols-outlined" id="profileicon">
+            person
+        </span>
+    </div>
+    <div class="TextTitle">
+        <p style="text-align: center; 
+            font-family: Julius Sans One;
+            color: #CDD6F4;
+            position:relative;
+            left:120px;
+            top:50px;
+            transform: scale(1.7);">
+            CINEFY
+        </p>
+        <p style="text-align: center;
+            font-family:sans-serif;
+            color:#BAC2DE;
+            position:relative;
+            top:80px;
+            transform: scale(1.1);">
+            <span style="color:#B4BEFE; font-weight: bold;">Track</span> what you watch<br>
+            <span style="color:#B4BEFE; font-weight: bold;">Discover</span> new Shows and Movies
+        </p>
+    </div>
+
+</html>
