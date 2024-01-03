@@ -5,7 +5,7 @@ body {
 }
 
 @viewport {
-    zoom: 7;
+    zoom:7;
     min-zoom: 7;
     max-zoom: 7;
     user-zoom: zoom;
